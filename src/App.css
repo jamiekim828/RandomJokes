@@ -1,10 +1,42 @@
 .App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  background-color: cornflowerblue;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.joke-wrapper {
+  padding-top: 4%;
+  height: 60%;
+  width: 50%;
+  background-color: white;
+  border: 5px solid gold;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: 800;
+  color: gold;
+}
+
+.joke-div {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.question {
+  margin-bottom: 4rem;
+}
+
+.answer {
+  height: 20px;
+  margin-bottom: 5rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
