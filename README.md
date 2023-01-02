@@ -7,7 +7,7 @@
 
 ## Requirements
 
-1. Fetch data from this API: `https://api.escuelajs.co/api/v1/products`
+1. Fetch data from this API: `https://official-joke-api.appspot.com/random_joke`
 2. Write the logic in `redux` folder
 3. Display products in `ProductList`and product item in `ProductItem` components
 
